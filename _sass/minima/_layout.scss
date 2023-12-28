@@ -3,7 +3,7 @@
  */
 .site-header {
   // border-top: 5px solid $border-color-03;
-  border-bottom: 1px solid $border-color-01;
+  // border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -121,10 +121,10 @@
 /**
  * Site footer
  */
-.site-footer {
-  border-top: 1px solid $border-color-01;
-  padding: $spacing-unit 0;
-}
+// .site-footer {
+  // border-top: 1px solid $border-color-01;
+  // padding: $spacing-unit 0;
+// }
 
 .footer-heading {
   @include relative-font-size(1.125);
@@ -145,6 +145,10 @@
 .social-links {
   @include relative-font-size(0.9375);
   color: $brand-color;
+}
+
+.social-links {
+  float: left;
 }
 
 .footer-col {
